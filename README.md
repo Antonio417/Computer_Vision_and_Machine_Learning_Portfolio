@@ -2,6 +2,7 @@
 ### Welcome to my Computer Vision 👀 and Machine Learning 🤖 Portfolio 
 ### Here I provide a brief explanation to all of my Computer Vision and Machine Learning related projects
 ### Feel free to click on the project's name to take a look at each project in more detail 
+#### Disclaimer: All of these projects were unguided projects 
 
 ## 📚 Table of Contents
 - [Computer Vision](#computer-vision)
