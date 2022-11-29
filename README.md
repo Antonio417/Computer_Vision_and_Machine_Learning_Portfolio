@@ -7,7 +7,7 @@
 - [Computer Vision](#computer-vision)
 - [Machine Learning](#machine-learning)
 
-# Computer Vision 👀
+# Computer Vision 
 #### Libraries: Pytorch, TensorFlow, Keras, OpenCV, Matplotlib Numpy and Sklearn
 #### Disclaimer: All of these projects were unguided projects 
 | Project Name | Area | Description | Libraries | 
@@ -16,7 +16,7 @@
 | [Image Stitching](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/tree/main/Computer%20Vision/Image_Stitching) | Projective Geometry and Use of Homography Matrix | This project main aim was to be able to stitch two or more images of the same landscape that are taken at different angle, height and lighting into one long image. The output image expected was an image that is similar to a panoramic image. The output of this project is as shown below. The first two image are the initial image that are taken at a different angle, height and lighting compared to the other one. The last image is the stitched image. ![left](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Image_Stitching/left.jpg)![right](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Image_Stitching/right.jpg)![Image Stitching](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Image_Stitching/Stitched_Image_Adjust_Brightness.jpg) | Numpy, cv2, Matplotlib and Pyplot |
 | [Sobel Filter](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/tree/main/Computer%20Vision/Sobel_filter) | Image Filtering and Edge Detection | This project was done to build a sobel filter to perform edge detection and investigate how to perform these tasks manually without using any pre-existing frameworks. Below was the result obtained from this project after non-maximal suppresion was implemented.![Computer Vision](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/sobel_filter_result.png) | Numpy, cv2 and Matplotlib |
 
-# Machine Learning 🤖
+# Machine Learning 
 #### Libraries: Numpy, Matplotlib and Sklearn
 #### Description : Projects shown below are small projects that were done to better understand machine learning models or algorithms. These projects will be used as a reference in the future.
 | Model Name | Description | 
