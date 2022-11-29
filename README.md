@@ -18,7 +18,7 @@
 
 # Machine Learning 
 #### Libraries: Numpy, Matplotlib and Sklearn
-#### Description : Projects shown below are small projects that were done to better understand machine learning models or algorithms. These projects will be used as a reference in the future.
+#### Description : Projects shown below are small projects that were done to better understand machine learning models or algorithms. 
 | Model Name | Description | 
 |---|---|
 | [Linear Regression](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/tree/main/Machine%20Learning/Linear-Regression) | Regression is a statistical method that attempts to determine the strength and character of the relationship between one dependent variable (usually denoted by Y or 'label' in machine learning) and a series of other variables (known as independent variables). Linear regression attempts to find the line (or a more complex linear combination) that most closely fits the data according to a specific mathematical criterion. In layman terms, it tries to find the line of best fit in a 2D data.
