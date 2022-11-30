@@ -14,4 +14,5 @@ Notes: K means are the number of neighbor samples that are used, So if k = 6, me
 classes
 
 The Algorithm are as shown below
-![img1]()
+
+![img1](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/KNN/KNN-Classification.gif)
