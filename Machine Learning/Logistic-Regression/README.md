@@ -9,7 +9,7 @@ Steps:
 1. Predict values using a sigmoid of the linear function, sigmoid(y) = sigmoid(wx + b) then initialize weights(w) and bias(b) as zero 
 2. Find the weights and bias using a cost function which in logistic regression we use Cross Entropy Loss
    - Cross Entropy Loss = -ylog(yHat) - (1-y)log(1-yHat)
-   - yHat = sigmoid( transpose(w) * x ) where weights and bias has been initialised usually equals to zero.
+   - yHat = sigmoid( transpose(w) * x ) + b where weights and bias has been initialised usually equals to zero.
    - sigmoid(x) = 1/(1 + exp(-x)), graph is as shown below 
    
    ![sigmoid](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/Logistic-Regression/sigmoid.png)
