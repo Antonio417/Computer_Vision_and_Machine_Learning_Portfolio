@@ -6,7 +6,7 @@ Steps:
 1. Predict Values using a linear function y = wx + b, initialize weights(w) and bias(b) as zero 
 2. Find the weights and bias using a cost function which in linear regression we use Mean-Squared Error(MSE)
    - MSE = (1/number of sample) * sum( (actual value(y) - predicted value(yHat))^2 ) 
-   - yHat = wx + b where weights and bias has been initialised usually equals to zero.
+   - yHat = wx + b where weights and bias has been initialised.
 3. We want the MSE function to be as low as possible, so we find the minimum of our error function using derivative
 4. Use gradient descent to get the minimum where
    - weights(n+1) = weights(n) - learning rate * derivative of MSE with respect to weights(df/dw)
