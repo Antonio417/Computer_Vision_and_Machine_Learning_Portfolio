@@ -14,7 +14,8 @@ The hyperplane used must satisfied the conditions below
 - gradient descent is used to minimise it 
 - update rule : w = w - learning rate * dw and b = b - learning rate * db
 
-The algorithm is as shown below
+The expected output is to get a hyperplane as shown below in 2D(left) and 3D(right)
 
-       
+<img src = "https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/SVM/svm2d.gif" width="500" height="500" /> <img src = "https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/SVM/Linear3D.gif" width="500" height="500" />
+
        
