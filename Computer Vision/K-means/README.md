@@ -44,8 +44,8 @@ The end result of the clustered image should look something like the one shown b
 ## Steps:
 1. Select the Number of Centroids/Clusters, k
 2. Select k Points at Random(does not have to be from the data points) 
-3. Make k Clusters
-4. Compute New Centroid of Each Cluster
+3. Assign each data points to their corresponding cluster
+4. Compute a new centroid of each cluster by setting the new centroid equal to the mean of their corresponding cluster
 
 #### Notes: Data points are assigned to their corresponding cluster based on euclidean distance to each centroids. The shortest distance shows which cluster it belongs to.
 
