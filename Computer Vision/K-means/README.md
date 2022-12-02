@@ -70,5 +70,5 @@ So longer distance == higher probability of getting choosen as our next centroid
 ## Performance Comparison:
 Below is the comparison between K-Means and K-Means++. This was computed by comparing the loss value over 20 iterations.
 
-
+<img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/K-means/img/comparison.png" width="700" height = "500" >
 
