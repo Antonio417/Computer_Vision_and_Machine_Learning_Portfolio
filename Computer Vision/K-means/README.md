@@ -56,7 +56,19 @@ where the first image shows results from random centroid and second image shows 
 <img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/K-means/img/img2.png" height = "300">
 
 
+# 📊 K-Means++ 
 
+One disadvantage of the K-means algorithm is that it is sensitive to the initialization of the centroids or the mean points. So, if a centroid is initialized to be a “far-off” point, it might just end up with no points associated with it, and at the same time, more than one cluster might end up linked with a single centroid. Similarly, more than one centroids might be initialized into the same cluster resulting in poor clustering. 
+The steps needed is pretty much the same as K-Means but with a little bit of modification.
+
+## Steps:
+1. Randomly select centroids by using data points
+2. For each data point compute its distance from the nearest, previously chosen centroid
+3. Get the maximum value for the next centroids because we want probability to choose next centroid to be directly proportional to the distance. 
+So longer distance == higher probability of getting choosen as our next centroid
+
+## Performance Comparison:
+Below is the comparison between K-Means and K-Means++. This was computed by comparing the loss value over 20 iterations.
 
 
 
