@@ -47,6 +47,8 @@ The end result of the clustered image should look something like the one shown b
 3. Make k Clusters
 4. Compute New Centroid of Each Cluster
 
+#### Notes: Data points are assigned to their corresponding cluster based on euclidean distance to each centroids. The shortest distance shows which cluster it belongs to.
+
 ## Result:
 Images below are results from doing K-Means clustering with 4 centroids and 5 iterations, 
 where the first image shows results from random centroid and second image shows the output image after K-Means clustering.
