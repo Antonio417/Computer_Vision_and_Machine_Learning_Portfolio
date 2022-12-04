@@ -20,12 +20,12 @@ H: [[1.6010, -0.0300, -317.9341], [0.1279, 1.5325, -22.5847], [0.0007, 0, 1.2865
 
 Steps:
 
-1. Draw test points on left image to test our homography coordinate as shown below
-2. Use homography to find whether the matrix given can be used to interpret those coordinate on the second image as shown below
+1. Draw test points on left image to test our homography coordinate as shown below<img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Image_Stitching/leftH.png" width="512" height="384">
+2. Use homography to find whether the matrix given can be used to interpret those coordinate on the second image as shown below<img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Image_Stitching/rightH.png" width="512" height="384">
 3. Write a bilinear interpolation function to compute the intensity of the transformed pixel coordinate in the other image using intensity values from
 neighbouring pixel locations
-4. Initialize a "canvas" of size 1024x384 for us to print the stitched image( this could change depending on image size used)
-5. image stitching by connecting the left image (512x384) and the rest of the blank area in the canvas using the right image coordinates
+4. Initialize a "canvas" of size 1024x384 for us to print the stitched image (this could change depending on image size used)
+5. Image stitching by connecting the left image (512x384) and the rest of the blank area in the canvas using the right image coordinates
 6. Improve image accordingly by adjusting width, brightness, gaussian blur at the seam and location of the horizontal seam.
 
 Questions:
