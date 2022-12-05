@@ -33,7 +33,7 @@ neighbouring pixel locations
 The result were quite impressive considering that we are doing all of this without the help of any advance frameworks and all of the calculations were done manually. Below are the output image after stitching was done. This image still has a visible seam because necessary adjustments were not done yet.
 <img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Image_Stitching/Stitched_img.jpg" width="1024" height="384">
 
-Below are the final image after blurring the image near the seam to make it less visible and adjusting the brightness of the right side of the seam
+Below are the final image after blurring the image near the seam to make it less visible and adjusting the brightness of the left side of the seam
 <img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Image_Stitching/Stitched_Image_Adjust_Brightness.jpg" width="1024" height="384">
 
 ## Improvements:
