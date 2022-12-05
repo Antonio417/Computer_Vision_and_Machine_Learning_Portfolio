@@ -10,7 +10,7 @@
 - [Machine Learning](#machine-learning)
 
 # Computer Vision 
-#### Libraries: Pytorch, TensorFlow, Keras, OpenCV, Matplotlib Numpy and Sklearn
+#### Libraries: Pytorch, TensorFlow, Keras, OpenCV, Matplotlib, Numpy and Sklearn
 | Project Name | Area | Description | Libraries | 
 |---|---|---|---|
 | [K-Means Clustering on Image](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/tree/main/Computer%20Vision/K-means) | Centroid-Based Clustering | This project was done to better understand how K-Means and K-means++ clustering can be done on an image. K-means is an unsupervised learning model where the dataset has no data to class pair like what we have in a classification problem. The model will have to find clusters or pattern within the data by itself. The result of this project is as shown below. First image shows expected result, second image shows image after clustering it with four initial random centroids and third image show the final image after K-Means clustering for 5 iteration![Kmeans](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/K-means/img/objective.png) ![image1](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/K-means/img/img1.png)![image2](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/K-means/img/img2.png)| Numpy, cv2, Matplotlib and Pyplot |
