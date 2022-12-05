@@ -10,7 +10,7 @@ The gradient in the x direction is calculated by finding the difference between 
 filtering has been done on the image. The gradient in the y direction is calculated by finding the difference between the first row and 
 the third row of the output matrix when filtering has been done on the image. 
 Therefore if we look at the x-direction, the filter used will be Gx as shown below and vice versa. 
-![]()
+![img1](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/sobelOperator.png)
  
  The filtering step is done by doing convolution where we multiply corresponding values accordingly and eget the output matrix 
  which is usually smaller than the actual image size considering no padding has been added to the image. Below is the illustration of how convolution works
