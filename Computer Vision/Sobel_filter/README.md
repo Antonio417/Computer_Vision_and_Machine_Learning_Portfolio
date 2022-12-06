@@ -34,9 +34,13 @@ Here is the result when blur has been applied to the input image A:
 Sobel filter calculates the gradient of an image intensity at each pixel and the sobel_x_kernel sweeps through the image horizontally and finds the largest increase or decrease in intensity value. This is why the values in the second column of sobel_x_kernel matrix is all zero, so that it can compare the change in values in the x axis. It basically tries to find the discrete approximation to the derivative of each pixel
 
 Below is the output image after applying Gx to the image
+<img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/GxOutput.png" width="842" height="600">
 
 Below is the output image after applying Gy to the image
+<img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/GyOutput.png" width="842" height="600">
 
 ## Step 3: Calculate gradient magnitude
-## Step 4: Calculate gradien magnitude
+Our model measure the change in intensity horizontally for 'gx' and vertically for 'gy'. The gradient magnitude or the eigen values for gx will show a small eigen value for an edge. For a corner, it will show a large eigen value in gx and gy since the change in intensity is in both direction Lastly, for a solid region the gradient magnitude will be very small regardless of which directions we are measuring since there is no significant change in pixel intensity. The magnitude can be found by using the formula below
+
+## Step 4: Calculate gradient orientation
 ## Step 5: Non-maxima Suppression and thresholding 
