@@ -12,7 +12,7 @@ the third row of the output matrix when filtering has been done on the image.
 Therefore if we look at the x-direction, the filter used will be Gx as shown below and vice versa. 
 <img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/Visuals/sobelOperator.png" width="842" height="399">
 
- The filtering step is done by doing convolution where we multiply corresponding values accordingly and eget the output matrix 
+ The filtering step is done by doing convolution where we multiply corresponding values accordingly and get the output matrix 
  which is usually smaller than the actual image size considering no padding has been added to the image. Below is the illustration of how convolution works
  when we use Gx for finding changes in pixel intensity in the x-direction
  ![img2](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/Visuals/Gx.jpeg)
@@ -40,7 +40,7 @@ Below is the output image after applying Gy to the image
 <img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/Visuals/GyOutput.png" width="842" height="600">
 
 ## Step 3: Calculate gradient magnitude
-Our model measure the change in intensity horizontally for 'gx' and vertically for 'gy'. The gradient magnitude or the eigen values for gx will show a small eigen value for an edge. For a corner, it will show a large eigen value in gx and gy since the change in intensity is in both direction Lastly, for a solid region the gradient magnitude will be very small regardless of which directions we are measuring since there is no significant change in pixel intensity. The magnitude can be found by using the formula below
+Our model measure the change in intensity horizontally for 'gx' and vertically for 'gy'. The gradient magnitude or the eigen values for gx will show a small eigen value for an edge. For a corner, it will show a large eigen value in gx and gy since the change in intensity is in both direction. Lastly, for a solid region the gradient magnitude will be very small regardless of which directions we are measuring since there is no significant change in pixel intensity. The magnitude can be found by using the formula below
 ![mag](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/Visuals/magnitudeFormula.png)
 
 Image below is the output image that represents the gradient magnitude.
@@ -58,7 +58,7 @@ The image shown below is the output image that represents the gradient orientati
 ## Step 5: Non-maxima Suppression and thresholding 
 The gradient magnitude produced results in thick edges. Ideally, the final image should have thin edges. Thus, we must perform non maximum suppression to thin out the edges. Non maximum suppression works by finding the pixel with the maximum value in an edge. The image is scanned along the image gradient direction, and if pixels are not part of the local maxima they are set to zero. This has the effect of supressing all image information that is not part of local maxima.
 
-Thresholding was done to identify 2 kinds of pixels which is the strong and weak pixels. So that we can remove the irrelevant pixel values or the noise that is present in the image. These values are found by getting the minimum and maximum value from the pixel value in the image array and use the ratio from the argument to determine the high and low threshold. Therefore, lower **high-threshold-ratio** will show more accurate data in the final image since we are taking a more broad pixel range. If we put **high-threshold-ratio** equal to 1, it wil only show pixels that are equal to the max value.
+Thresholding was done to identify 2 kinds of pixels which is the strong and weak pixels. So that we can remove the irrelevant pixel values or the noise that is present in the image. These values are found by getting the minimum and maximum value from the pixel value in the image array and use the ratio from the argument to determine the high and low threshold. Therefore, lower **'high-threshold-ratio'** will show a more accurate data in the final image since we are taking a more broad pixel range. If we put **'high-threshold-ratio'** equal to 1, it wil only show pixels that are equal to the max value within the image.
 
 Below is the final output of our **Canny Edge Detector**
 <img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/Visuals/sobel_filter_result.png" width="842" height="600">
