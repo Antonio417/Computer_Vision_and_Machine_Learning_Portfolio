@@ -19,3 +19,16 @@ Therefore if we look at the x-direction, the filter used will be Gx as shown bel
  
  Below is the illustration of how convolution works when we use Gy for finding changes in pixel intensity in the y-direction
  ![img2](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Computer%20Vision/Sobel_filter/Gy.jpeg)
+
+## Steps:
+## Step 1: Implement Gaussian blur
+Here we want to write a program that performs Gaussian blur on an input image using the a pre-determined 5x5 kernel, where B
+is the blurred version of input image A. The blur is applied to image A by convolution as shown before. Below is how the calculations should be done to apply gaussian blur
+![]()
+Here is the result when blur has been applied to the input image A:
+![]()
+
+## Step 2: Calculate image gradients
+## Step 3: Calculate gradient magnitude
+## Step 4: Calculate gradien magnitude
+## Step 5: Non-maxima Suppression and thresholding 
