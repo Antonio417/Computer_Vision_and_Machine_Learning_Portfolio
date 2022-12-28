@@ -1,5 +1,5 @@
 # Computer Vision and Machine Learning Portfolio
-<img src = "https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/coverImage.jpeg" width=800 height=500>
+<img src = "https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/coverImage.jpeg" width=800 height=450>
 
 ### Welcome to my Computer Vision 👀 and Machine Learning 🤖 Portfolio 
 ### Here I provide a brief explanation to all of my Computer Vision and Machine Learning related projects
