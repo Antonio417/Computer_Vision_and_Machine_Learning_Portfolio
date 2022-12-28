@@ -1,7 +1,8 @@
 # 🌲 Decision Tree 
-Description: A decision tree is a flowchart-like structure in which each internal node represents a test on a feature (e.g. whether a coin flip comes up heads or tails) , 
+Description: Decision trees are used in data analytics and machine learning to break down complex data into more manageable parts. A decision tree is a flowchart-like structure in which each internal node represents a test on a feature (e.g. whether a coin flip comes up heads or tails) , 
 each leaf node represents a class label (decision taken after computing all features) and branches represent conjunctions of features that lead to those class labels. 
-The paths from root to leaf represent classification rules. Below diagram illustrate the basic flow of decision tree for decision making with labels (Rain(Yes), No Rain(No)).
+The paths from root to leaf represent classification rules. Below diagram illustrate the basic flow of decision tree for decision making with labels (Rain(Yes), No Rain(No)). 
+
 <img src = "https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/Decision-Tree/treeExample.png" width="500" height="400" />
 
 
