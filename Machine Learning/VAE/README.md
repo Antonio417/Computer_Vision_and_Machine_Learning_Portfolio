@@ -20,4 +20,4 @@ Parameters in this model are trained with two loss function, they are:
 2. KL Divergence: This acts as a regularization term and therefore helps in reducing overfitting to the training data
 
 Below is the architecture of Variational Autoencoders
-![]()
+![img2](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/VAE/VAE_img.jpeg)
