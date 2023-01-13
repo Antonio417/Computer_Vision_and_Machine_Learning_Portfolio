@@ -1,5 +1,5 @@
 # 📊 Support Vector Machine (Linear)
-Description: an algorithm where a linear model is used to find a hyperplane that best separates the data.
+Description: An algorithm where a linear model is used to find a hyperplane that best separates the data.
 The best hyperplane is the one that represents the largest equal separation between the two classes.
 
 The hyperplane used must satisfied the conditions below
