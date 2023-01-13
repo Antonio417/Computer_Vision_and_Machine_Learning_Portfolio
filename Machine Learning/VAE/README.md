@@ -7,7 +7,7 @@ Description: Autoencoders is a data compression algorithm where the data compres
 As mentioned before, autoencoders are data specific which means that the model will only able to compress data similar to what they have been trained on. They are also lossy implies that the decompressed output from the decoder will be degraded when compared to the input. This model will also learn automatically from examples which is a good thing because it is easier to train it to specialized in compressing specific type of input. It doesn't require any new engineering, just appropriate training data
 
 ## Variational Autoencoders
-Description:  a type of autoencoder with added constraints on the encoded representations being learned. More precisely, it is an autoencoder that learns a latent variable model for its input data. So instead of letting your neural network learn an arbitrary function, you are learning the parameters of a probability distribution modeling your data. If you sample points from this distribution, you can generate new input data samples hence why a VAE is considered as a "generative model".
+Description:  a type of autoencoder with added constraints on the encoded representations being learned. More precisely, it is an autoencoder that learns a latent variable model for its input data. So instead of letting your neural network learn an arbitrary function, you are learning the parameters of a probability distribution function modeling your data. If you sample points from this distribution, you can generate new input data samples hence why a VAE is considered as a "generative model".
 
 How it works ?
 
