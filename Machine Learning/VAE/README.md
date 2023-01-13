@@ -28,7 +28,7 @@ The architecture of the complete model is as shown below
 
 ![img3](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/VAE/VAE_architecture.png)
 
-Results:
+## Results:
 Shown below is the generated image from the latent space with a dimension of 10
 ![img4](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/VAE/generated_images_L10_E_10.png)
 Shown below is the visualization of the encoded dimension of the latent space used
