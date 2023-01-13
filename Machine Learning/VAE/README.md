@@ -23,7 +23,7 @@ Below is the architecture of Variational Autoencoders
 ![img2](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/VAE/VAE_img.jpeg)
 
 ## Implementation using Convolutional Neural Network
-Description: In this project a Convolutional neural network (convnet) was used in order to build the encoder and decoder. Convnet are used because they perform better especially when dealing with images. The model was then used to perform compression and denoising of images from the famous MNIST dataset.
+Description: In this project a Convolutional neural network (convnet) was used in order to build the encoder and decoder. Convnet are used because they perform better especially when dealing with images. The model was then used to perform data compression and denoising of images from MNIST dataset.
 The architecture of the complete model is as shown below
 
 ![img3](https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/VAE/VAE_architecture.png)
@@ -42,4 +42,4 @@ Shown below is the visualization of the encoded dimension of the latent space us
 |**Denoised Image**|<img src="https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/VAE/prediction_from_noisy_image.png">|
 
 ## Summary
-This project shows us how autoencoders work and the power of representing data in the latent space. These latent space are very useful when dealing with generative models such as GAN, VQ-GAN and VQ-VAE. They also reduces the amount of processing power needed when building and training complex models such as what we see in DALL-E model. The generated image from the latent space with 10 dimension have some bad outputs, this is because the model was overfitting when we use a high latent space dimension. The number of dimension shows us how specific or how general the kinds of features we want our latent space to learn and represent. In this case we can choose a lower dimension for our latent space which will improve the performance of the model. 
+This project shows us how autoencoders work and the power of representing data in the latent space. These latent space are very useful when dealing with generative models such as GAN, VQ-GAN and VQ-VAE. They also reduces the amount of processing power needed when building and training complex models such as what we see in mini DALL-E model. In our case, The generated image from the latent space with 10 dimension have some bad outputs, this is because the model was overfitting when we use a high latent space dimension. The number of dimension shows us how specific or how general the kinds of features we want our latent space to learn and represent. In this case we can choose a lower dimension for our latent space which will improve the performance of the model. 
