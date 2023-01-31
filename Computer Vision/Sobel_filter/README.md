@@ -1,4 +1,4 @@
-# 🤖 Sobel Filter
+# 🤖 Canny Edge Detector
 ## Edge Detection
 Edge Detection is simply a case of trying to find the regions in an image where we have a sharp change in intensity or a sharp change in color,
 a high value indicates a steep change and a low value indicates a shallow change. This can be used in various deep learning models such as CNN 
