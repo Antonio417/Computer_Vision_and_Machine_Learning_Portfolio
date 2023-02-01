@@ -10,5 +10,7 @@ Labels in the dataset are categorical while model needs the label to be a number
 ## Base Model
 The model that I created were inspired by the LeNet5 model. It is basically a CNN model with maxpooling applied to it. The model is as shown below.
 
-Overfitting is a problem where the model is to sensitive with changes in the data. In this case the model could overfit the training data. To prevent this I use earlystopping, where we would stop training the model when their performance has not increase for certain amount of epoch. By doing this we can get a model that could perform better with unseen data and this is what we want at the end.
+<img src = "https://github.com/Antonio417/Computer_Vision_and_Machine_Learning_Portfolio/blob/main/Machine%20Learning/Detecting_Character/images/model_summary.png" width=400 height=550>
+
+To avoid overfitting where the model is to sensitive with changes in the data I use earlystopping where we would stop training the model when their performance has not increase for certain amount of epoch. By doing this we can get a model that could perform better with unseen data and this is what we want at the end.
 
