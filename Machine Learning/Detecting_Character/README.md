@@ -8,7 +8,7 @@ The data initially had 43 classes with an unequal distribution in the amount of 
 Labels in the dataset are categorical while model needs the label to be a number. Solution for this is to do one-hot encoding to represent the classes. One-hot encoding was done because it avoids order of classes. LabelEncoder from Sklearn and to_categorical from Keras was used since it helps us to encode these labels for us.
 
 ## Base Model
-The model that I created are inspired by the LeNet5 model. It is basically a CNN model with maxpooling applied to it. The model is as shown below.
+The model that I created were inspired by the LeNet5 model. It is basically a CNN model with maxpooling applied to it. The model is as shown below.
 
 Overfitting is a problem where the model is to sensitive with changes in the data. In this case the model could overfit the training data. To prevent this I use earlystopping, where we would stop training the model when their performance has not increase for certain amount of epoch. By doing this we can get a model that could perform better with unseen data and this is what we want at the end.
 
