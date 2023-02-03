@@ -15,6 +15,6 @@ The model that I created were inspired by the LeNet5 model. It is basically a CN
 To avoid overfitting where the model is to sensitive with changes in the data I use earlystopping where we would stop training the model when their performance has not increase for certain amount of epoch. By doing this we can get a model that could perform better with unseen data and this is what we want at the end. The base model after training it for 10 epoch have an accuracy of 91.6% with the test set. The difference in accuracy between the train and validation was around 11%, this means that overfitting still exist which can lead to an inconsistent model. Reducing overfitting can be done through variety of regularisation methods such as L1/L2 and dropout. This can be further investigated in the future.
 
 ## VGG-16 Model
-This model was first made to win the ILSVR(Imagenet) competition back in 2014
+This model was first made to win the ILSVR(Imagenet) competition back in 2014. It consist of convolutional layers of 3x3 filter with a stride 1 and always used same padding and maxpool layer of 2x2 filter of stride 2. It follows this arrangement of convolution and maxpooling layers consistently throughout the whole architecture. The 16 in the name of the model refers to the number of layers that actually have weights in them.
 
 
